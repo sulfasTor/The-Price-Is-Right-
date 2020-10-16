@@ -1,0 +1,39 @@
+#+TITLE: The Price Is Right
+
+* Usage
+#+BEGIN_EXAMPLE
+chmod +x generador.sh
+chmod +x game.py
+
+./generador.sh <NUMBER OF PLAYERS> <PLAYERS NAME....>
+#+END_EXAMPLE
+
+* Example
+#+BEGIN_SRC sh
+./generador.sh 5 "picasso" "dali" "rembrandt" "basquiat" "Van Gogh"
+#+END_SRC
+
+[[./media/screen1.png]]
+
+#+BEGIN_EXAMPLE
+Scrapping Amazon US....
+picasso: Precio? 12
+dali: Precio? 23
+rembrandt: Precio? 45
+basquiat: Precio? 10
+Van Gogh: Precio? 2
+######################################
+picasso was 15.77 short to the actual price of 27.77
+dali was 4.77 short to the actual price of 27.77
+rembrandt was 17.23 short to the actual price of 27.77
+basquiat was 17.77 short to the actual price of 27.77
+Van Gogh was 25.77 short to the actual price of 27.77
+dali wins.
+######################################
+
+#+END_EXAMPLE
+
+[[./media/screen1.png]]
+
+* Empty price
+  Sometimes a product is out of stock or is missing the price. 
