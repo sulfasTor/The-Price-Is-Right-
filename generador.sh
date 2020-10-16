@@ -24,6 +24,6 @@ xmllint --html --nowarning --xpath '//*[@id="feature-bullets"]' innerHTML.html 2
 
 ./game.py "$PRICE" "$@"
 
-/usr/bin/firefox --new-tab $URL
+/usr/bin/firefox --new-tab $URL &
 
 rm img_product.html product.json innerHTML.html 2>/dev/null

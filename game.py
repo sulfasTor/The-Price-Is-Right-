@@ -24,7 +24,7 @@ class Game():
             retry = True
             while retry:
                 try:
-                    pl.guess = int(input(f"{pl.name}: Precio? "))
+                    pl.guess = float(input(f"{pl.name}: Precio? "))
                 except:
                     retry = True
                 finally:
