@@ -33,7 +33,7 @@ dali wins.
 
 #+END_EXAMPLE
 
-[[./media/screen1.png]]
+[[./media/screen2.png]]
 
 * Empty price
   Sometimes a product is out of stock or is missing the price. 
